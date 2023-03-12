@@ -59,8 +59,8 @@
 
 
     //ClassControllCamera + ClassFlowTakeImage + connect_wlan + main
-    #define FLASH_GPIO GPIO_NUM_4
-    #define BLINK_GPIO GPIO_NUM_33
+    #define FLASH_GPIO GPIO_NUM_25
+    #define BLINK_GPIO GPIO_NUM_30
 
     //interface_mqtt + read_wlanini
     #define __HIDE_PASSWORD
@@ -238,23 +238,23 @@
     #define PCLK_GPIO_NUM     21
 
 #elif defined(CAMERA_MODEL_AI_THINKER)
-    #define PWDN_GPIO_NUM     GPIO_NUM_32
+    #define PWDN_GPIO_NUM     GPIO_NUM_5
     #define RESET_GPIO_NUM    -1
-    #define XCLK_GPIO_NUM      GPIO_NUM_0
-    #define SIOD_GPIO_NUM     GPIO_NUM_26
-    #define SIOC_GPIO_NUM     GPIO_NUM_27
+    #define XCLK_GPIO_NUM      GPIO_NUM_15
+    #define SIOD_GPIO_NUM     GPIO_NUM_22
+    #define SIOC_GPIO_NUM     GPIO_NUM_23
 
-    #define Y9_GPIO_NUM       GPIO_NUM_35
+    #define Y9_GPIO_NUM       GPIO_NUM_39
     #define Y8_GPIO_NUM       GPIO_NUM_34
-    #define Y7_GPIO_NUM       GPIO_NUM_39
-    #define Y6_GPIO_NUM       GPIO_NUM_36
-    #define Y5_GPIO_NUM       GPIO_NUM_21
-    #define Y4_GPIO_NUM       GPIO_NUM_19
-    #define Y3_GPIO_NUM       GPIO_NUM_18
-    #define Y2_GPIO_NUM        GPIO_NUM_5
-    #define VSYNC_GPIO_NUM    GPIO_NUM_25
-    #define HREF_GPIO_NUM     GPIO_NUM_23
-    #define PCLK_GPIO_NUM     GPIO_NUM_22
+    #define Y7_GPIO_NUM       GPIO_NUM_33
+    #define Y6_GPIO_NUM       GPIO_NUM_27
+    #define Y5_GPIO_NUM       GPIO_NUM_12
+    #define Y4_GPIO_NUM       GPIO_NUM_35
+    #define Y3_GPIO_NUM       GPIO_NUM_14
+    #define Y2_GPIO_NUM        GPIO_NUM_2
+    #define VSYNC_GPIO_NUM    GPIO_NUM_18
+    #define HREF_GPIO_NUM     GPIO_NUM_36
+    #define PCLK_GPIO_NUM     GPIO_NUM_26
 
 #else
     #error "Camera model not selected"
